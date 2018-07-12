@@ -4,13 +4,21 @@
 header{
 	background-color: #ffffff;
 	border: 2px #cccccc solid;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+	height: 103px;
+	background-color: #666666;
+	border-bottom: 8px #4aaaa5 solid;
 	
 }
 
 body{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-color: #ffffff;
+	background-image: url("../Images/qbkls.png");
+	background-size: cover;
+	background-repeat: repeat;
+	height: 100%;
+	width: 100%
 }
 
 footer{
@@ -24,7 +32,7 @@ footer{
 	padding-top: 10px;
 	padding-bottom: 5px;
 	font-size: x-small;
-	position:fixed;
+	position: absolute;
 	bottom: 0px; 
 }
 h1 {
@@ -44,7 +52,9 @@ h2{
 	margin: 20px;
 }
 
-p {
+a{
+	color:whitesmoke;
+	text-decoration: none;
 }
 
 #aboutMe {
@@ -53,50 +63,45 @@ p {
 	margin: auto;
 	border: 2px #dddddd solid;
 	padding: 70px;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 /*header links */
 #indexLink{
-	float: right;
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
 	position: relative;
 	top:-75px;
-	left:-314px;
+	left: 1450px;
 
 }
 #contactLink{
-	float: right;
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
 	position: relative;
-	top:-75px;
+	top: -145px;
+	left: 1650px;
 
 }
 #portfolioLink{
-	float: right;
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
 	position: relative;
-	top:-75px;
+	top: -110px;
+	left: 1535px;
 
 }
 /*background*/
 #container{
-	background-image: url("../Images/qbkls.png");
-	background-size: cover;
-	background-repeat: repeat;
-	height: 1000px;
+
 }
 /*golf image*/
 #ventura{
 	clear: both;
 	float: left;
-	margin: 5px;
-	width:200; 
-	height:200;
+	margin: 10px;
+	
 }
