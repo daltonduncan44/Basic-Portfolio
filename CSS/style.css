@@ -49,22 +49,22 @@ table {
 
 /* end of reset*/
 
-#container{
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 header{
 	background-color: #ffffff;
 	border-color: #cccccc;
+	
 }
 
 body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-color: #ffffff;
-	border-color: #dddddd
-
+	border-color: #dddddd;
 }
+
 footer{
-	background-color: #666666
+	background-color: #666666;
+	width: 156%;
+	border: 4px, top, #4aaaa5;
 
 }
 h1 {
@@ -74,4 +74,11 @@ h1 {
 	padding: 35px;
 	margin-top: 30px;
 	width: 98px;
+}
+h2{
+	color: #4aaaa5;
+}
+#aboutMe {
+	width: 960px;
+	margin: auto;
 }
