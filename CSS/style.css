@@ -5,7 +5,7 @@ header{
 	height: 103px;
 	background-color: #666666;
 	border-bottom: 8px #4aaaa5 solid;
-	
+	position: relative;
 }
 
 body{
@@ -34,9 +34,7 @@ footer{
 	bottom: 0px; 
 }
 h1 {
-	position: absolute;
-	top: 35px;
-	left: 60px;
+	float: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 35px;
@@ -44,6 +42,7 @@ h1 {
 	color: white;
 	padding: 20px;
 	width: 248px;
+	margin: 30px 200px;
 }
 h2{
 	color: #4aaaa5;
@@ -57,14 +56,14 @@ a{
 }
 
 #aboutMe {
-	position: absolute;
-	top: 165px;
-	left: 350px;
+	float: left;
 	background-color: #ffffff;
 	width: 960px;
 	border: 2px #dddddd solid;
 	padding: 70px;
 	font-size: 25px;
+	margin: 0px 180px 
+	
 }
 
 /*header links */
@@ -72,28 +71,30 @@ a{
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	float: right;
 	position: absolute;
-	top: 45px;
-	left: 1450px;
+	bottom: 0;
+	right: 250px; 
 
 }
 #contactLink{
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	float: right;
 	position: absolute;
-	top: 45px;
-	left: 1650px;
+	bottom: 0;
+	right: 20px;
 
 }
 #portfolioLink{
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	float: right;
 	position: absolute;
-	top: 45px;
-	left: 1535px;
-
+	bottom: 0;
+	right: 128px;
 }
 
 #container{
@@ -105,4 +106,23 @@ a{
 	float: left;
 	margin: 10px;
 	
+}
+ul {
+	list-style-type: none;
+	margin: 0px; 
+	padding: 0px;
+	overflow: hidden;
+	background-color: #666666;
+}
+
+li {
+	float: left;
+	
+}
+li a {
+	color:whitesmoke;
+	display: block; 
+	text-align: center;
+	padding: 14px 16px;
+
 }
