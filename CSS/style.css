@@ -110,6 +110,9 @@ p {
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	position: relative;
+	top:-75px;
+	left:-314px;
 
 }
 #contactLink{
@@ -117,12 +120,18 @@ p {
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	position: relative;
+	top:-75px;
+
 }
 #portfolioLink{
 	float: right;
 	font-size: 25px;
 	margin: 10px;
 	text-decoration: none;
+	position: relative;
+	top:-75px;
+
 }
 /*background*/
 #container{
