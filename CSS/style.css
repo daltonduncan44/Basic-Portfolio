@@ -88,7 +88,7 @@ h1 {
 }
 h2{
 	color: #4aaaa5;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 p {
@@ -98,28 +98,33 @@ p {
 	width: 960px;
 	margin: auto;
 	border: 2px #dddddd solid;
-	padding: 20px;
-	font-size: 20px;
+	padding: 70px;
+	font-size: 30px;
 }
 
 #indexLink{
 	float: right;
+	font-size: 20px;
 
 }
 #contactLink{
 	float: right;
+	font-size: 20px;
 }
 #portfolioLink{
 	float: right;
+	font-size: 20px;
 }
-
+/*background*/
 #container{
 	background-image: url("../Images/qbkls.png");
 	background-size: cover;
 	background-repeat: repeat;
 	height: 1000px;
 }
-
+/*golf image*/
 #ventura{
 	clear: both;
+	float: left;
+	margin: 5px;
 }
