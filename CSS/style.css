@@ -64,6 +64,7 @@ body{
 footer{
 	background-color: #666666;
 	width: 156%;
+	height: 30px;
 	border-top: 4px #4aaaa5 solid;
 	margin-top: 242px;
 	margin-bottom: 0px;
@@ -113,7 +114,12 @@ p {
 }
 
 #container{
-	background-image: url("images/qbkls.png");
+	background-image: url("../Images/qbkls.png");
 	background-size: cover;
 	background-repeat: repeat;
+	height: 1000px;
+}
+
+#ventura{
+	clear: both;
 }
