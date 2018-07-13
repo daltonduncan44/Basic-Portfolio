@@ -46,7 +46,7 @@ h1 {
 }
 h2{
 	color: #4aaaa5;
-	font-size: 40px;
+	font-size: 30px;
 	margin: 20px;
 }
 
@@ -124,5 +124,22 @@ li a {
 	display: block; 
 	text-align: center;
 	padding: 14px 16px;
-
 }
+
+input[type="text"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="message"] {
+	height: 100px;
+	width: 104%;
+}
+
+input[type="button"]{
+	background-color: #4aaaa5;
+	color: whitesmoke;
+}
+
+
