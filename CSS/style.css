@@ -12,7 +12,6 @@ body{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-color: #ffffff;
 	background-image: url("../Images/qbkls.png");
-	
 	background-repeat: repeat;
 	margin: 0;
 	height: 100%;
@@ -30,7 +29,7 @@ footer{
 	padding-top: 10px;
 	padding-bottom: 5px;
 	font-size: x-small;
-	position: absolute;
+	position: fixed;
 	bottom: 0px; 
 }
 h1 {
@@ -140,11 +139,56 @@ input[type="message"] {
 input[type="button"]{
 	background-color: #4aaaa5;
 	color: whitesmoke;
+	
 }
 
-.wrapper{
-	display: grid
-
-
+#angleCode {
+	background-color: #4aaaa5;
+	color: whitesmoke;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	position: relative;
+	top: 20px; 
+	left: 780px;
 
 }
+
+}
+#codingStation {
+	background-color: #4aaaa5;
+	color: whitesmoke;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	position: relative;
+	top: 20px; 
+	left: 780px;	
+}
+
+
+#neon {
+	background-color: #4aaaa5;
+	color: whitesmoke;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+}
+
+#pantAndWork {
+	background-color: #4aaaa5;
+	color: whitesmoke;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+}
+
+
+#muleAndWork {
+	background-color: #4aaaa5;
+	color: whitesmoke;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+}
+
