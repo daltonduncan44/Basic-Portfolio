@@ -148,22 +148,27 @@ input[type="button"]{
 	text-align: center;
 	width: 150px;
 	height: 40px;
-	position: relative;
-	top: 20px; 
-	left: 780px;
-
+	position: absolute;
+	top: 423px;
+	left: 251px;
 }
 
-}
 #codingStation {
 	background-color: #4aaaa5;
 	color: whitesmoke;
 	text-align: center;
 	width: 150px;
 	height: 40px;
-	position: relative;
-	top: 20px; 
-	left: 780px;	
+	position: absolute;
+	top: 423px;
+	left: 929px;
+	z-index: 1;
+}
+
+#stationimg {
+	position: absolute;
+	top: 277px;
+	left: 477px;
 }
 
 
@@ -173,16 +178,15 @@ input[type="button"]{
 	text-align: center;
 	width: 150px;
 	height: 40px;
+	position: absolute;
+	top: 425px;
+	left: 477px;
 }
-
-#pantAndWork {
-	background-color: #4aaaa5;
-	color: whitesmoke;
-	text-align: center;
-	width: 150px;
-	height: 40px;
+#neonimg {
+	position: absolute;
+	top: 278px;
+	left: 701px;
 }
-
 
 #muleAndWork {
 	background-color: #4aaaa5;
@@ -190,5 +194,13 @@ input[type="button"]{
 	text-align: center;
 	width: 150px;
 	height: 40px;
+	position: absolute;
+	top: 423px;
+	left: 701px;
 }
 
+#muleimg {
+	position: absolute;
+	top: 277px;
+	left: 929px;
+}
